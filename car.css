@@ -1,0 +1,17 @@
+.background {
+    /* background-image: url('town.svg'); */
+    /* background-size: cover; */
+    background-repeat: repeat-x;
+    /* height: 100vh;
+    width: 100%; */
+    animation: gaurav 90s linear 3s infinite;
+}
+
+@keyframes gaurav {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: -10000px;
+    }
+}
